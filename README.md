@@ -34,9 +34,9 @@ cp .env.example .env
 Modifier les variables d'environnement dans le fichier `.env`:
 
 ```py
-AIRTABLE_ACCESS_TOKEN="your_airtable_access_token"
-AIRTABLE_BASE_ID="your_airtable_base_id"
-AIRTABLE_TABLE_NAME="your_airtable_table_name"
+GRIST_ACCESS_TOKEN="your_grist_access_token"
+GRIST_DOCUMENT_ID="your_grist_document_id"
+GRIST_TABLE_NAME="your_grist_table_name"
 
 PIVOT_COLUMN="your_joint_key" # La clé permettant de faire la jointure entre les deux tables
 COLUMNS_TO_CHECK="your,columns,to,check" # Les colonnes à vérifier pour savoir si une ligne doit être mise à jour
